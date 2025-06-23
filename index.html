@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Burbujas de Algodón</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- MENÚ RESPONSIVE SIN JS -->
+  <header class="navbar">
+    <h1 class="logo">Burbujas de Algodón</h1>
+    <input type="checkbox" id="toggle-menu">
+    <label for="toggle-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+    <button onclick="document.body.classList.toggle('dark-mode')" style="margin-left: auto;">
+        🌙
+      </button>
+      
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#equipo">Equipo</a></li>
+        <li><a href="#actividades">Actividades</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#calendario">Calendario</a></li>
+        <li><a href="#inscripciones">Inscripciones</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <h2>Bienvenidos a Burbujas de Algodón</h2>
+    <p>Un lugar para crecer, jugar y aprender con amor</p>
+  </section>
+
+  <!-- NOSOTROS -->
+  <section class="about" id="nosotros">
+    <h2>Sobre Nosotros</h2>
+    <p>Somos una institución dedicada al desarrollo integral de niños y niñas desde los 2 a los 5 años. Nuestra misión es brindar un espacio cálido, seguro y estimulante donde cada niño pueda crecer feliz.</p>
+    <h3>Filosofía Educativa</h3>
+    <p>Nos basamos en el enfoque de aprendizaje significativo, respetando los tiempos individuales, promoviendo el juego libre, el arte, la exploración y la educación emocional. Trabajamos en proyectos integradores que involucran a las familias.</p>
+  </section>
+
+  <!-- EQUIPO -->
+  <section id="equipo">
+    <h2>Nuestro Equipo</h2>
+    <ul>
+      <li><strong>Seño Mariana:</strong> Directora pedagógica, docente con más de 20 años de experiencia.</li>
+      <li><strong>Seño Carla:</strong> Sala de 2 años. Creativa, afectuosa y divertida.</li>
+      <li><strong>Seño Gaby:</strong> Sala de 3 años. Especialista en juego libre.</li>
+      <li><strong>Seño Sofía:</strong> Sala de 4 años. Apasionada por los cuentos.</li>
+      <li><strong>Seño Luli:</strong> Sala de 5 años. Amante de los proyectos y el arte.</li>
+      <li><strong>Profe José:</strong> Educación física y juegos motores.</li>
+      <li><strong>Lic. Andrea:</strong> Psicopedagoga institucional.</li>
+    </ul>
+  </section>
+
+  <!-- ACTIVIDADES -->
+  <section id="actividades">
+    <h2>Actividades Destacadas</h2>
+    <ul>
+      <li><strong>Exploración Sensorial:</strong> actividades con agua, masa, arena y materiales naturales.</li>
+      <li><strong>Proyecto Huerta:</strong> sembramos, regamos y aprendemos de la naturaleza.</li>
+      <li><strong>Taller de Cocina:</strong> preparamos recetas sencillas y aprendemos sobre alimentación.</li>
+      <li><strong>Literatura Infantil:</strong> cuentos diarios, biblioteca viajera y rincones de lectura.</li>
+      <li><strong>Educación emocional:</strong> círculos de diálogo, tarjetas de emociones y cuentos temáticos.</li>
+    </ul>
+  </section>
+
+  <!-- GALERIA -->
+  <section id="galeria">
+    <h2>Galería de Momentos</h2>
+    <div class="galeria-carousel">
+      <img src="juegos-patio.jpg" alt="Juego 1">
+      <img src="20231025_093148-scaled.jpg" alt="Arte">
+      <img src="02_31-1920.jpg" alt="Cuentos">
+      <img src="dia-del-animal-jardines-2.jpg" alt="Disfraces">
+      <img src="198a25b767303cd9a18695b1aa6628b6.jpg" alt="Huerta">
+    </div>
+  </section>
+
+  <!-- CALENDARIO -->
+  <section id="calendario">
+    <h2>Calendario Escolar</h2>
+    <p>Conocé las fechas importantes del ciclo lectivo.</p>
+    <ul>
+      <li><strong>Marzo:</strong> Inicio de clases, reuniones de padres.</li>
+      <li><strong>Abril:</strong> Jornada de juegos en familia.</li>
+      <li><strong>Mayo:</strong> Fiesta patria y feria del libro.</li>
+      <li><strong>Julio:</strong> Vacaciones de invierno.</li>
+      <li><strong>Octubre:</strong> Día de la familia, picnic y juegos.</li>
+      <li><strong>Diciembre:</strong> Acto de cierre y entrega de carpetas.</li>
+    </ul>
+  </section>
+
+  <!-- INSCRIPCIONES -->
+  <section id="inscripciones">
+    <h2>Inscripciones 2025</h2>
+    <p>¡Ya están abiertas! Podés acercarte al jardín de lunes a viernes de 9 a 12 hs o escribirnos por WhatsApp.</p>
+    <ul>
+      <li><strong>Requisitos:</strong> Fotocopia DNI, libreta de vacunación, ficha médica.</li>
+      <li><strong>Edades:</strong> De 2 a 5 años.</li>
+      <li><strong>Turnos:</strong> Mañana (8 a 12), Tarde (13 a 17).</li>
+    </ul>
+  </section>
+
+  <!-- PREGUNTAS FRECUENTES -->
+  <section id="faq">
+    <h2>Preguntas Frecuentes</h2>
+    <ul>
+      <li><strong>¿Debo llevar materiales?</strong> No, todo está incluido.</li>
+      <li><strong>¿Qué pasa si mi hijo llora?</strong> Las docentes acompañan el proceso de adaptación con amor y paciencia.</li>
+      <li><strong>¿Puedo visitar el jardín antes?</strong> Sí, con cita previa podés recorrerlo con tu hijo.</li>
+    </ul>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form>
+      <label for="nombre">Nombre</label>
+      <input type="text" id="nombre" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" required>
+
+      <label for="mensaje">Mensaje</label>
+      <textarea id="mensaje" rows="5" required></textarea>
+
+      <button type="submit">Enviar mensaje</button>
+    </form>
+  </section>
+
+  <!-- WHATSAPP FLOTANTE -->
+  <div class="whatsapp">
+    <a href="https://wa.me/5492612345678" target="_blank"><i class="fab fa-whatsapp"></i></a>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Burbujas de Algodón. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
